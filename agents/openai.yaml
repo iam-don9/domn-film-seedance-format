@@ -1,0 +1,4 @@
+interface:
+  display_name: "Seedance 提示词格式"
+  short_description: "指导写专业的 Seedance 生视频提示词：七段式结构、对白语言规定、执行契约与负向约束"
+  default_prompt: "Use $domn-film-seedance-format to write a professional Seedance video prompt."
