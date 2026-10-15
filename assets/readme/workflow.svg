@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">domn-film-seedance-format 工作流</title>
+  <desc id="desc">Seedance 生视频提示词格式规范。阶段：锁骨架 → 写对白 → 排镜头 → 定参数。</desc>
+  <rect width="1200" height="320" rx="24" fill="#0C0F13"/>
+  <g id="title-block" transform="translate(56 40)">
+    <text x="0" y="14" fill="#7A8694" font-size="15" letter-spacing="2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">WORKFLOW · 1–4</text>
+    <text x="0" y="46" fill="#E8ECF1" font-size="23" font-weight="600" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">Seedance 生视频提示词格式规范</text>
+  </g>
+  <g id="project-proof">
+    <line x1="120.0" y1="180" x2="1080.0" y2="180" stroke="#D1A654" stroke-width="3"/>
+    <path d="M273.0 174 L287.0 180 L273.0 186 Z" fill="#D1A654"/>
+    <path d="M593.0 174 L607.0 180 L593.0 186 Z" fill="#D1A654"/>
+    <path d="M913.0 174 L927.0 180 L913.0 186 Z" fill="#D1A654"/>
+    <g id="stage-1" transform="translate(120 180)">
+      <circle r="30" fill="#0C0F13" stroke="#2A3138" stroke-width="1.5"/>
+      <text x="0" y="8" fill="#D1A654" font-size="24" font-weight="800" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">1</text>
+      <text x="0" y="238" fill="#E8ECF1" font-size="21" font-weight="600" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">锁骨架</text>
+    </g>
+    <g id="stage-2" transform="translate(440 180)">
+      <circle r="30" fill="#0C0F13" stroke="#2A3138" stroke-width="1.5"/>
+      <text x="0" y="8" fill="#D1A654" font-size="24" font-weight="800" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">2</text>
+      <text x="0" y="238" fill="#E8ECF1" font-size="21" font-weight="600" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">写对白</text>
+    </g>
+    <g id="stage-3" transform="translate(760 180)">
+      <circle r="30" fill="#0C0F13" stroke="#2A3138" stroke-width="1.5"/>
+      <text x="0" y="8" fill="#D1A654" font-size="24" font-weight="800" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">3</text>
+      <text x="0" y="238" fill="#E8ECF1" font-size="21" font-weight="600" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">排镜头</text>
+    </g>
+    <g id="stage-4" transform="translate(1080 180)">
+      <circle r="30" fill="#D1A654" stroke="#D1A654" stroke-width="1.5"/>
+      <text x="0" y="8" fill="#0C0F13" font-size="24" font-weight="800" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">4</text>
+      <text x="0" y="238" fill="#E8ECF1" font-size="21" font-weight="600" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">定参数</text>
+    </g>
+  </g>
+  <g id="metadata"><text x="600" y="304" fill="#7A8694" font-size="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">对白与语言写法最易写糊，单列经验</text></g>
+</svg>

@@ -1,16 +1,55 @@
 # domn-film-seedance-format
 
-> 独立技能仓库 · 来自 domn skills 集合（视频制作 域）
+![domn-film-seedance-format 封面](assets/readme/hero.webp)
 
-Seedance 生视频提示词格式规范。当用户需要写、改写或审核一段专业的 Seedance / 即梦生视频提示词，或把剧情、创意、素材、已有片段转成结构化提示词时使用；也用于把散乱的提示词重构成型。 覆盖：电影级实拍感的七段式结构（【1.全局设定】/【2.素材绑定】/【3.画面契约】/【4.执行契约】/【5.场景】/【6.分段计划】/【7.负向约束】）、对白与语言规定、各执行契约写法、换题材迁移。 触发词：seedance 提示词、即梦提示词、生视频提示词、视频 prompt、写提示词、改提示词、审核提示词、提示词格式、提示词结构、对白怎么写、台词怎么写。
+> Seedance 生视频提示词格式规范。
 
-## 元信息
-- **领域**：视频制作
-- **触发/用途**：见上方说明
-- **标签**：seedance, 即梦, 提示词, 生视频, 格式, 对白, prompt, AI视频
+## 是什么
 
-## 使用方法
-将本仓库内容放入支持 `SKILL.md` 的 Agent 技能目录（如 WorkBuddy `~/.workbuddy/skills/`、Codex skills 目录）即可调用。
+Seedance 生视频提示词格式规范。本仓库是一个 Agent 技能（SKILL.md 为唯一权威定义），把上面的方法论沉淀为可被对话触发的可执行流程。
+
+## 怎么做（工作流）
+
+<p align="center">
+  <img src="./assets/readme/workflow.svg" width="100%" alt="domn-film-seedance-format 工作流：锁骨架 → 写对白 → 排镜头 → 定参数。对白与语言写法最易写糊，单列经验">
+</p>
+
+1. **锁骨架**
+2. **写对白**
+3. **排镜头**
+4. **定参数**
+
+## 怎么用
+
+将本仓库放入支持 `SKILL.md` 的 Agent 技能目录：
+
+- **WorkBuddy**：`~/.workbuddy/skills/domn-film-seedance-format/`
+- **Codex / 其他**：对应 skills 目录
+
+然后在对话中触发，例如：
+
+```
+用 domn-film-seedance-format 帮我处理一段需求。
+```
+
+## 依赖
+
+纯提示词格式规范，供 Seedance / 即梦等文生视频模型使用.
+
+## 仓库结构
+
+```
+domn-film-seedance-format/
+├── SKILL.md                 # 技能定义（唯一权威）
+├── references/              # 方法论弹药库
+├── assets/                  # 模板 / 占位素材
+└── assets/readme/           # 本 README 的视觉资产（hero.webp / workflow.svg）
+```
+
+## 许可
+
+本仓库内容以 `SKILL.md` 为唯一权威定义。如附带 `LICENSE` 文件，以其为准。
 
 ---
-*本仓库由 domn skills 库导出，技能定义以 `SKILL.md` 为准。*
+
+*README 由 `beautify-github-readme` 生成 · 封面图来自作者作品集，强调色由封面图采样派生。*
